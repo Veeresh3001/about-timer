@@ -1,0 +1,104 @@
+/* Write your CSS here */
+*{
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.setting{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.setting p{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00d9f5;
+}
+button{
+    font-weight: 800;
+    margin-right: 15px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+button p{
+    padding: 0px;
+}
+.set-time-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    margin: 20px;
+}
+.set-time-card div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    width: 30px;
+
+}
+.main{
+    background-image: linear-gradient(to right, #ffffff, #cffcf1);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timer-bg{
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+}
+.timer-bg div{
+    background-color: #ffffff;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    color: #00d9f5;
+    font-size: 30px;
+    font-weight: 800;
+}
+.time-status{
+    color: #1e293b;
+    font-size: 20px;
+    font-weight: 800;
+}
